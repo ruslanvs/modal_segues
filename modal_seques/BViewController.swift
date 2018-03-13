@@ -10,8 +10,12 @@ import UIKit
 
 class BViewController: UIViewController {
 
+    @IBOutlet weak var textLabel: UILabel!
+    var output: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        textLabel.text = output
 
         // Do any additional setup after loading the view.
     }
